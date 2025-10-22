@@ -110,3 +110,62 @@ title: Individual -- Component Selection
 **Choice:** Option 1: MCP6002
 
 **Rationale:** Meets performance with minimal power and gives two amps for gain + active LPF, it is also the least expensive option.
+
+**C-Voltage regulators** **[Power Components]** 
+> We need a 6V and a 5V voltage regulator to step down from 9 or 12V.
+1. LM2596 **6V**
+
+    ![](LM2596.jpg)
+
+    * $6.97/each
+    * [Link to LM2596](https://www.digikey.com/en/products/detail/texas-instruments/LM2596S-5.0-NOPB/334842?utm_source=chatgpt.com)
+
+    | Pros                                        |     Cons                                                             |
+    | ----------------------------------------- | ---------------------------------------------------------------- |
+    | Capable of 3 amp output                            | Large size |
+    | Adjustable version fives votage flexibility                        | Input Voltage limited to 40V                                          |
+    |    |
+
+1. TPS564201DDCR **6V**
+
+    ![](TPS564201DDCR.jpg)
+
+    * $1.26/each
+    * [Link to TPS564201DDCR](https://www.mouser.com/ProductDetail/Texas-Instruments/TPS564201DDCR?qs=zEmsApcVOkUKQpyzRnH%2FcQ%3D%3D&mgh=1&utm_source=chatgpt.com)
+
+    | Pros                                                              | Cons                |
+    | ----------------------------------------------------------------- | ------------------- |
+    | Cheaper                                                    | Over specced      |
+    | Highest current capacity at 9 amps                             | Requires custom footprint |
+    | Swithching regulator |
+    
+1. D45V5F5 **5V**
+
+    ![](D24V90F5.jpg)
+
+    * $8.95/each
+    * [Link to D45V5F5](https://www.digikey.com/en/products/detail/pololu/2843/10451170?utm_source=chatgpt.com)
+
+    | Pros                                                              | Cons                |
+    | ----------------------------------------------------------------- | ------------------- |
+    | Generous votlage range                                            | Current output limited to 500 mA      |
+    | Compact size                                                    | Fixed 5V output |
+    |  |
+
+D24V90F5 **5V**
+
+    ![](D24V90F5.jpg)
+
+    * $36.82/each
+    * [Link to D24V90F5](https://www.digikey.com/en/products/detail/pololu/2866/10451188?utm_source=chatgpt.com)
+
+    | Pros                                                              | Cons                |
+    | ----------------------------------------------------------------- | ------------------- |
+    | Higher amperate raiting                                           | More expensive than MCP6002      |
+    | 2.7–6 V supply                                                    | More heat |
+    |  |
+
+
+**Choice:** Option 1: MCP6002
+
+**Rationale:** Meets performance with minimal power and gives two amps for gain + active LPF, it is also the least expensive option.
