@@ -12,7 +12,7 @@ title: Individual -- Component Selection
 > It needs to detect a nearby hand/body; analog output; works at 5 V; supports custom active conditioning.
 1. TCRT5000 element (IR LED + phototransistor)
 
-    ![](TCRT5000.jpg)
+    ![TCRT5000](TCRT5000.jpg)
 
     * $1-2/each TCRT5000
     * [Link to PDV-P8103](https://www.digikey.com/en/products/detail/advanced-photonix/PDV-P8103/480610)
@@ -48,12 +48,12 @@ title: Individual -- Component Selection
     | Outputs a square wave                                             | More expensive      |
     | Built-in amp/comparator                                           | Gives digital output, no analog output |
 
-    1. Analog Distance Sensor Sharp/Socle (GP2Y0A41SK0F)
+1. Analog Distance Sensor Sharp/Socle (GP2Y0A41SK0F)
 
-    ![](LHI968.jpg)
+    ![](LHGP2Y0A41SK0F.jpg)
 
-    * $6/each LHI968
-    * [Link to LHI968](https://www.digikey.com/en/products/detail/excelitas-technologies/LHI-968-3866/5885894)
+    * $13.95/each LHI968
+    * [Link to LHI968](https://www.pololu.com/product/2464)
 
     | Pros                                                              | Cons                |
     | ----------------------------------------------------------------- | ------------------- |
@@ -152,9 +152,9 @@ title: Individual -- Component Selection
     | Compact size                                                    | Fixed 5V output |
     |  |
 
-D24V90F5 **5V**
+1. D24V90F5 **5V**
 
-    ![](D24V90F5.jpg)
+    ![D24V90F5](D24V90F5.jpg)
 
     * $36.82/each
     * [Link to D24V90F5](https://www.digikey.com/en/products/detail/pololu/2866/10451188?utm_source=chatgpt.com)
@@ -163,9 +163,10 @@ D24V90F5 **5V**
     | ----------------------------------------------------------------- | ------------------- |
     | Higher amperate raiting                              | More expensive than MCP6002      |
     | 2.7–6 V supply                                                              | More heat |
-    | 
+    | |
 
 
-**Choice:** Option 1: MCP6002
 
-**Rationale:** Meets performance with minimal power and gives two amps for gain + active LPF, it is also the least expensive option.
+**Choice:** Option 1 & 3: LM2596 and D45V5F5
+
+**Rationale:** Meets project requirements and are flexible enough for what we are trying to do with DC motors.
