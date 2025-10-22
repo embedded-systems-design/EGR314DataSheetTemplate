@@ -17,10 +17,10 @@ title: Individual -- Component Selection
     * $1-2/each TCRT5000
     * [Link to PDV-P8103](https://www.digikey.com/en/products/detail/advanced-photonix/PDV-P8103/480610)
 
-    | Pros                                      | Cons                                                             |
-    | ----------------------------------------- | ---------------------------------------------------------------- |
+    | Pros                                                              | Cons                |
+    | ----------------------------------------------------------------- | ------------------- |
     | True analog output                               | Needs mechanical aiming |
-    | Easy to bias                      | Ambient light can effect performance                                        |
+    | Easy to bias                                     | Ambient light can effect performance                                        |
     | Inexpensive |
 
 1. LDR (photoresistor PDV-P8103) + LED
@@ -75,8 +75,8 @@ title: Individual -- Component Selection
     * $0.44/each
     * [Link to MCP6002](https://www.digikey.com/en/products/detail/microchip-technology/MCP6002-I-P/500875)
 
-    | Pros                                        |     Cons                                                             |
-    | ----------------------------------------- | ---------------------------------------------------------------- |
+    | Pros                                                              | Cons                |
+    | ----------------------------------------------------------------- | ------------------- |
     | RRIO at 1.8–5.5 V                               | Not great for precision |
     | Ultra-low supply current                        | Low kHZ support                                           |
     | Good for low-frequency gain + Sallen-Key LPF    |
@@ -120,8 +120,8 @@ title: Individual -- Component Selection
     * $6.97/each
     * [Link to LM2596](https://www.digikey.com/en/products/detail/texas-instruments/LM2596S-5.0-NOPB/334842?utm_source=chatgpt.com)
 
-    | Pros                                        |     Cons                                                             |
-    | ----------------------------------------- | ---------------------------------------------------------------- |
+    | Pros                                                            | Cons                |
+    | --------------------------------------------------------------- | ------------------- |
     | Capable of 3 amp output                            | Large size |
     | Adjustable version fives votage flexibility                        | Input Voltage limited to 40V                                          |
     |    |
