@@ -8,7 +8,7 @@ title: Individual -- Component Selection
 
 *Table 1: Individual component selection (prox sensor)*
 
-**Proximity Sensor**
+**A-Proximity Sensor**
 > It needs to detect a nearby hand/body; analog output; works at 5 V; supports custom active conditioning.
 1. TCRT5000 element (IR LED + phototransistor)
 
@@ -46,14 +46,27 @@ title: Individual -- Component Selection
     | Pros                                                              | Cons                |
     | ----------------------------------------------------------------- | ------------------- |
     | Outputs a square wave                                             | More expensive      |
-    | Built-in amp/comparator                               | Gives digital output, no analog output |
+    | Built-in amp/comparator                                           | Gives digital output, no analog output |
+
+    1. Analog Distance Sensor Sharp/Socle (GP2Y0A41SK0F)
+
+    ![](LHI968.jpg)
+
+    * $6/each LHI968
+    * [Link to LHI968](https://www.digikey.com/en/products/detail/excelitas-technologies/LHI-968-3866/5885894)
+
+    | Pros                                                              | Cons                |
+    | ----------------------------------------------------------------- | ------------------- |
+    | Good range for hand detection (4-30cm)                            | Most expensive option      |
+    | Analog voltage readout                                            | Distance < 4 cm will provide throw away readings and will need to be addressed in design |
+    |High resolution measurements|
 
 **Choice:** Option 1: TCRT5000 element
 
 **Rationale:** Analog current/voltage proportional to reflected light and pairs well with a custom MCP6002 gain + active low-pass filter stage to satisfy project requirements. The cost also makes this a viable option.
 
 *Table 2: Individual component selection (Op-Amp)*
-**Signal Conditioning Op-Amp**
+**B-Signal Conditioning Op-Amp**
 > It needs a 5 V single supply, rail-to-rail I/O, low power, enough bandwidth for ~10–50 Hz.
 1. MCP6002 (dual, 1 MHz GBW)
 
@@ -97,52 +110,3 @@ title: Individual -- Component Selection
 **Choice:** Option 1: MCP6002
 
 **Rationale:** Meets performance with minimal power and gives two amps for gain + active LPF, it is also the least expensive option.
-
-### Style 2
-
-> Also acceptable, more markdown friendly
-
-**Low-Pass Filter**
-
-1. 1st-order RC
-
-    ![](image1.png)
-
-    * $1/each
-    * [link to product](http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366)
-
-    | Pros                                      | Cons                                                             |
-    | ----------------------------------------- | ---------------------------------------------------------------- |
-    | Minimal parts                               | Limited attenuation |
-    | Easy to setup                               | More ripple vs. 2nd-order                                        |
-    | Meets surface mount constraint of project |
-
-1. 2nd-order Sallen–Key
-
-    ![](image3.png)
-
-    * $1/each
-    * [Link to product](http://www.digikey.com/product-detail/en/636L3I001M84320/CTX936TR-ND/2292940)
-
-    | Pros                                                              | Cons                |
-    | ----------------------------------------------------------------- | ------------------- |
-    | 40 dB/dec roll-off                                            | One more op-amp section      |
-    | very smooth ADC input                                 | More components needed |
-    |  |
-
-1. Multiple-pole
-
-    ![](image3.png)
-
-    * $1/each
-    * [Link to product](http://www.digikey.com/product-detail/en/636L3I001M84320/CTX936TR-ND/2292940)
-
-    | Pros                                                              | Cons                |
-    | ----------------------------------------------------------------- | ------------------- |
-    | No extra op-amp needed                                             | Impedance rises      |
-    | Stable over operating temperature                                 | ADC acquisition time needs care |
-    |  |
-
-**Choice:** Option 2: CTX936TR-ND surface mount oscillator
-
-**Rationale:** A clock oscillator is easier to work with because it requires no external circuitry in order to interface with the PSoC. This is particularly important because we are not sure of the electrical characteristics of the PCB, which could affect the oscillation of a crystal. While the shipping speed is slow, according to the website if we order this week it will arrive within 3 weeks.
