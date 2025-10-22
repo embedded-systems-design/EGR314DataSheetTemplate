@@ -8,7 +8,7 @@ title: Individual -- Component Selection
 
 *Table 1: Individual component selection (prox sensor)*
 
-**A-Proximity Sensor**
+**A-Proximity Sensor** **[Proximity Sensor Component]** 
 > It needs to detect a nearby hand/body; analog output; works at 5 V; supports custom active conditioning.
 1. TCRT5000 element (IR LED + phototransistor)
 
@@ -66,7 +66,7 @@ title: Individual -- Component Selection
 **Rationale:** Analog current/voltage proportional to reflected light and pairs well with a custom MCP6002 gain + active low-pass filter stage to satisfy project requirements. The cost also makes this a viable option.
 
 *Table 2: Individual component selection (Op-Amp)*
-**B-Signal Conditioning Op-Amp**
+**B-Signal Conditioning Op-Amp** **[Proximity Sensor Component]** 
 > It needs a 5 V single supply, rail-to-rail I/O, low power, enough bandwidth for ~10–50 Hz.
 1. MCP6002 (dual, 1 MHz GBW)
 
