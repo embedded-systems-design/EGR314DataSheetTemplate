@@ -16,4 +16,4 @@ The completed power budget demonstrates that the system’s power distribution i
 
 ## Resouces
 
-The power budget as a Microsoft Excel Sheet file [*here*](Power Budget egr 304.xlsx).
+You may access the power budget as a Microsoft Excel Sheet file [*here*](Power Budget egr 304.xlsx).
