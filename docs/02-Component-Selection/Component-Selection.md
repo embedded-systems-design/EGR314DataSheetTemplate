@@ -141,7 +141,7 @@ title: Individual -- Component Selection
     
 1. D45V5F5 **5V**
 
-    ![](D24V90F5.jpg)
+    ![](D45V5F5.jpg)
 
     * $8.95/each
     * [Link to D45V5F5](https://www.digikey.com/en/products/detail/pololu/2843/10451170?utm_source=chatgpt.com)
