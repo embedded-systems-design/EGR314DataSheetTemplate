@@ -19,9 +19,9 @@ title: Individual -- Component Selection
 
     | Pros                                                              | Cons                |
     | ----------------------------------------------------------------- | ------------------- |
-    | True analog output                               | Needs mechanical aiming |
-    | Easy to bias                                     | Ambient light can effect performance                                        |
-    | Inexpensive |
+    | True analog output                                            | Needs mechanical aiming |
+    | Easy to bias                                   | Ambient light can effect performance   |
+    | Inexpensive 
 
 1. LDR (photoresistor PDV-P8103) + LED
 
@@ -77,9 +77,9 @@ title: Individual -- Component Selection
 
     | Pros                                                              | Cons                |
     | ----------------------------------------------------------------- | ------------------- |
-    | RRIO at 1.8–5.5 V                               | Not great for precision |
-    | Ultra-low supply current                        | Low kHZ support                                           |
-    | Good for low-frequency gain + Sallen-Key LPF    |
+    | RRIO at 1.8–5.5 V                                             | Not great for precision |
+    | Ultra-low supply current                                     | Low kHZ support          |
+    | Good for low-frequency gain + Sallen-Key LPF    
 
 1. MCP6022 (dual, 10 MHz)
 
@@ -122,9 +122,9 @@ title: Individual -- Component Selection
 
     | Pros                                                            | Cons                |
     | --------------------------------------------------------------- | ------------------- |
-    | Capable of 3 amp output                            | Large size |
-    | Adjustable version fives votage flexibility                        | Input Voltage limited to 40V                                          |
-    |    |
+    | Capable of 3 amp output                                                  | Large size |
+    | Adjustable version fives votage flexibility  | Input Voltage limited to 40V           |
+    | 
 
 1. TPS564201DDCR **6V**
 
@@ -161,9 +161,9 @@ D24V90F5 **5V**
 
     | Pros                                                              | Cons                |
     | ----------------------------------------------------------------- | ------------------- |
-    | Higher amperate raiting                                           | More expensive than MCP6002      |
-    | 2.7–6 V supply                                                    | More heat |
-    |  |
+    | Higher amperate raiting                              | More expensive than MCP6002      |
+    | 2.7–6 V supply                                                              | More heat |
+    | 
 
 
 **Choice:** Option 1: MCP6002
