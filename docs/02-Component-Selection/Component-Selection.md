@@ -9,8 +9,8 @@ title: Individual -- Component Selection
 *Table 1: Individual component selection (prox sensor)*
 
 **A-Proximity Sensor** **[Proximity Sensor Component]** 
-> It needs to detect a nearby hand/body; analog output; works at 5 V; supports custom active conditioning.
-1. TCRT5000 element (IR LED + phototransistor)
+> It needs to detect a nearby hand/body; analog output; works at 5 V; supports custom active conditioning.<br>
+1. TCRT5000 element (IR LED + phototransistor)<br>
 
     ![TCRT5000](TCRT5000.jpg)
 
@@ -111,11 +111,14 @@ title: Individual -- Component Selection
 
 **Rationale:** Meets performance with minimal power and gives two amps for gain + active LPF, it is also the least expensive option.
 
+*Table 3: Individual component selection (Voltage Regulators)*
 **C-Voltage regulators** **[Power Components]** 
-> We need a 6V and a 5V voltage regulator to step down from 9 or 12V.
+
+> We need a 6V and a 5V voltage regulator to step down from 9 or 12V. <br>
+
 1. LM2596 **6V**
 
-    ![](LM2596.jpg)
+    ![LM2596](LM2596.jpg)
 
     * $6.97/each
     * [Link to LM2596](https://www.digikey.com/en/products/detail/texas-instruments/LM2596S-5.0-NOPB/334842?utm_source=chatgpt.com)
