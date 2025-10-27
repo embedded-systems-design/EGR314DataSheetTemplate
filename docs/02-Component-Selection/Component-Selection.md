@@ -215,3 +215,8 @@ I updated my component list to show the current scope of our project.
     | 50HZ-16kHZ range good                                          | No wire leads     |
     | Omnidirectional                                                | Less install flexibility |
     | Ready to ship                                                  | Higher price
+
+
+**Choice:** Option 1: CMEJ-4618-42-L010
+
+**Rationale:** It is the most flexible option as it would allow us to reolcate the microphone outside the an enclosure since it comes with wire leads out of the box. It is also the least expensive option, but if the 7 week lead time is not enough time to receive it before the end of the semester, then the MO093803-1 would be a decent alternative with a good frequency range and slighly more complicated assembly.
