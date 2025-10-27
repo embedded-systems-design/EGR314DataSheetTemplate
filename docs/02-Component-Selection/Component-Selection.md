@@ -173,3 +173,45 @@ title: Individual -- Component Selection
 **Choice:** Option 1 & 3: LM2596 and D45V5F5
 
 **Rationale:** Meets project requirements and are flexible enough for what we are trying to do with DC motors.
+
+
+## Updated Component Selection
+
+I updated my component list to show the current scope of our project.
+
+1. Microphone with leads (CMEJ-4618-42-L010)
+
+    ![](CMEJ-4618-42-L010.jpg)
+
+    * $0.53/each PDV-P8103 [Link to CMEJ-4618-42-L010](https://www.digikey.com/en/products/detail/same-sky-formerly-cui-devices/CMEJ-4618-42-L010/10253438)
+
+    | Pros                                                              | Cons                |
+    | ----------------------------------------------------------------- | ------------------- |
+    | It comes with wire leads                                          | 7 week lead time     |
+    | Omnidirectional                                                   | Omnidirectional |
+    | Good frequency and DB range                                       | 
+
+1. THT Microphone (PMOF-9745P-39UQ)
+
+    ![](PMOF-9745P-39UQ.jpg)
+
+    * $0.72/each PMOF-9745P-39UQ [Link to PMOF-9745P-39UQ](https://www.digikey.com/en/products/detail/mallory-sonalert-products-inc/PMOF-9745P-39UQ/6564381)
+
+    | Pros                                                              | Cons                |
+    | ----------------------------------------------------------------- | ------------------- |
+    | 20-16 kHZ range very generous                                     | Less sensitivity     |
+    | Stable over operating temperature                                 | Highest price |
+    | Ready to ship                                                     | No wire leads
+
+1. THT Microphone  (MO093803-1)
+
+    ![](MO093803-1.jpg)
+
+    * $0.70/each MO093803-1 [Link to MO093803-1](https://www.digikey.com/en/products/detail/db-unlimited/MO093803-1/9990559)
+ 
+
+    | Pros                                                              | Cons                |
+    | ----------------------------------------------------------------- | ------------------- |
+    | 50HZ-16kHZ range good                                          | No wire leads     |
+    | Omnidirectional                                                | Less install flexibility |
+    | Ready to ship                                                  | Higher price
