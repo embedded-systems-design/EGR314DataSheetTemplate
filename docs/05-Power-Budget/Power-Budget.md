@@ -6,10 +6,11 @@ title: Power Budget (4 Items Listed)
 
 To do the power budject, I looked at each component of my susbsystem and researched their datasheet specs for current draw, voltage range, and so on. With this information, I used an already built spreasheet to see if my component selection made sense with the available power I had from my voltage regulator and my supply voltage from the AD to DC adapter I had selected. This is important to ensure my circuit is safe and the supply components are capable of supporting the load downstream.
 
-> Below is my power budget for the project.
+> Below is my power budget for the project.<br><br>
+V1 Power budget
+![budget1](powerbudget.jpg){style width:"350" height:"300;"}<br><br>
 
-![budget1](powerbudget.jpg){style width:"350" height:"300;"}
-
+V2 Power Budget
 ![budget2](powerbudgetv2.jpg){style width:"350" height:"300;"}
 This is my updated power budget with sourced from the most recent schematic components.
 
