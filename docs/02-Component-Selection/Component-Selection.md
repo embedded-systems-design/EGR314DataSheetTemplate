@@ -10,6 +10,7 @@ title: Individual -- Component Selection
 
 **A-Proximity Sensor** **[Proximity Sensor Component]** 
 > It needs to detect a nearby hand/body; analog output; works at 5 V; supports custom active conditioning.<br>
+
 1. TCRT5000 element (IR LED + phototransistor)<br>
 
     ![TCRT5000](TCRT5000.jpg)
@@ -67,7 +68,8 @@ title: Individual -- Component Selection
 
 *Table 2: Individual component selection (Op-Amp)*
 **B-Signal Conditioning Op-Amp** **[Proximity Sensor Component]** 
-> It needs a 5 V single supply, rail-to-rail I/O, low power, enough bandwidth for ~10–50 Hz.
+> It needs a 5 V single supply, rail-to-rail I/O, low power, enough bandwidth for ~10–50 Hz.<br>
+
 1. MCP6002 (dual, 1 MHz GBW)
 
     ![](MCP6002.jpg)
