@@ -19,9 +19,13 @@ In this schematic, I tried to leverage filters to capture a specific amplitude l
 **Figure 2:** Simplified schematic.
 In this schematic, I utilized the same idea from a previous in class lab to send a clean analog signal from the microphone, after a high pass filter, to our Curiosity Nano PIC. It complies with our project requirement of having voice recognition to trigger a digital signal from my PIC to activate a solenoid and open the protective cover of the Spark Guard. This was mainly picked due to time constraints and to reduce development costs for the test bed product.
 
+![schematicv3](MAC-Individual-SubsystemV3.jpg){style width:"350" height:"300;"}
+**Figure 3:** Updated schematic.
+This is my most up to date schematic in which I changed the last design a bit in order to add a push to talk function in order to add more security. The design also adds a band pass filter and it changed the supply voltage from the AC to DC converter to 9V DC. The changes add more features without overcomplicating the end result and it stays true to the voice recognition requirements.
+
 
 
 ## Resouces
 
-The schematic as a PDF download is available [*here*](MAC Individual Subsystems.pdf), and the Zip folder of the project schematics [*here*](MAC Individual Subsystem.zip).
+The schematic as a PDF download is available [*here*](MAC-Individual-Subsystem.pdf), and the Zip folder of the project schematics [*here*](MAC Individual Subsystem.zip).
 Link to resourses of the DSP [Geoertzel algorithm](http://ww1.microchip.com/downloads/en/devicedoc/70332b.pdf).
