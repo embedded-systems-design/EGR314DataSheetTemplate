@@ -1,5 +1,5 @@
 ---
-title: Power Budget (4 Items Listed)
+title: Power Budget (3 Sections Listed)
 ---
 
 ## Overview
