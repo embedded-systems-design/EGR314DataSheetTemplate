@@ -10,7 +10,7 @@ Below is the build of materials for my individual design. Most of the parts were
 
 
 
-## Bill of Materials Example (as Image)
+## Bill of Materials
 ![](MAC-BOM.jpg){style width: "2000"}
 **Figure 2:** Bill of Materials.<br><br>
 
