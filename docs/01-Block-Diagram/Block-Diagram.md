@@ -7,16 +7,18 @@ tags:
 
 ## Overview
 
-The purpose of this diagram is to quickly visualize the scope of the prototype PCB I am building with all core functions. The diagram will show the power required for each component and what components will be supplying this power. The PCB is composed of a group of components chosen to help achieve motion detection, operate a gear driven DC motor, and secure the internal components with a solenoid operated door latch. As you will note after looking at the diagram, there are no connections going in or out to other PIC boards. This is because my sensor does not need to communicate with other PIC's to function. 
+The purpose of this diagram is to quickly visualize the scope of the prototype PCB I am building with all core functions. The diagram will show the power required for each component and what components will be supplying this power with labeled arrows. The PCB is compossed of a group of components chosen to help achieve voice activation, sent out a digital signal to operate a solenoid actuator on separate PCB, and protect the outlet from tampering with a cover. As you will note after looking at the diagram, there are only outbound connections from this PCB. This PCB serves as the initiator of the logic chain.
 Below are some bullet points with relevant informaiton:<br><br>
 * **Power**<br>
-The components use power from three different sources. The main one being the 12V DC wall adapter plug, then two branching voltage regulators, one for 6V/3A and the other for 5V/0.5A.<br><br>
+The components use power from two different sources. The main one being the 9V 500mA DC wall adapter plug, then a linear voltage regulator, operating at 5V/100mA<br><br>
 * **Sensor**<br>
-There is one transistor based analog sensor that will provide data to our PIC for use as our proximity sensor.<br><br>
-* **Actuator**<br>
-Our geared DC motor will funciton as our actuator, this will operate our hinge mechanism for the opening and closing door.<br><br>
+There is one microphone analog sensor that will provide data to our PIC for use as our voice sensor.<br><br>
+* **Push Button**<br>
+The push button serve as a push to talk to prevent the microphone from always listening.<br><br>
 
 ## Block Diagram 
-Below is the block diagram for this project.
+Originally, I had the idea to have a photoresistor work as our trigger for our actuator. I decided against it since we wanted something more secure that would not be triggered by wildlife or children, so I came up wiht a microphone activated actuator sensor. This sensor will process a loud voice, then it feeds it to an op amp for some amplification, then a bandpass filter to remove hisses and rubmlings and other common outdoor noices. The filtered and amplidied signal is then fed into the PIC, which converts the signal from analog to digital so it can decide if the voice was loud enough to trigger a digital out command. If it is, it will send a high signal to the 8 pin connector via a GPIO pin to feed it to Ayush's actuator PCB.
 
-![Indivial Block diagram ](IndividualBlockDiagram-MAC.jpg)
+I have since added a push button to work as a push to talk to only enable the mic when the button is pressed, there are also debug LEDs connected to the mic signal logic, these receive a signal from the PIC to turn on if the PTT (push to talk) button is pressed and if the voice captured by the mic was loud enough to trigger the digital out command.
+
+![Indivial Block diagram ](IndividualBlockDiagramfinal-MAC.jpg)
