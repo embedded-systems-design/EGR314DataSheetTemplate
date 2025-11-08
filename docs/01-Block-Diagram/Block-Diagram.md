@@ -21,4 +21,4 @@ Originally, I had the idea to have a photoresistor work as our trigger for our a
 
 I have since added a push button to work as a push to talk to only enable the mic when the button is pressed, there are also debug LEDs connected to the mic signal logic, these receive a signal from the PIC to turn on if the PTT (push to talk) button is pressed and if the voice captured by the mic was loud enough to trigger the digital out command.
 
-![Indivial Block diagram ](IndividualBlockDiagramfinal-MAC.jpg)
+![Indivial Block diagram](IndividualBlockDiagram-MAC.drawio.png)
