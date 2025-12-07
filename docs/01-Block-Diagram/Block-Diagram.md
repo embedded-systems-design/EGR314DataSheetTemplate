@@ -30,3 +30,11 @@ I have since added a push button to work as a push to talk to only enable the mi
         <p>This browser does not support PDFs. Please download the PDF to view it: <a href="https://mcastr11-collab.github.io/EGR304MannyIndividualDataSheet/01-Block-Diagram/Team%20203BlockDiagramFinal.pdf">Download PDF</a>.</p>
     </embed>
 </object>
+
+
+
+
+<!-- Embed PDF File -->
+<object src="Team 203BlockDiagramFinal.pdf" type="application/pdf" title="SamplePdf" width="500" height="720">
+    <a href="Team 203BlockDiagramFinal.pdf">shree</a> 
+</object>
