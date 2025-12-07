@@ -6,19 +6,21 @@ tags:
 ---
 
 ## Overview
-This needs to be updated with a brief purpose for having the block diagram.
-Things to mention are:
-* power levels
-* sensor
-* Actuator
-* team connections
-* Power source
-* ...
+My section is the Input/Output board, the bridge between our sensors and lights. (ACTUATOR)
 
-To get some initial formatting help, one can view ["here"](https://embedded-systems-design.github.io/EGR304DataSheetTemplate/Appendix/basic-markdown-examples/) some basic techniques.
+Since my unit is the hub of our other units it has 2 team connetions.The motor functions as my actuator, it will "scan" the room for sound and the code to triger a light if it gets confirmation from both the sound and the night light board. The first two buttons are limits to the motors range of movement. Reset turns off the LED if on and turns off the motor if it was on aswell. For the sake of time and demonstration of the features of the board, the motor will not hold up the other boards and it will not hit the "limit switches". 
+
+Button 1: Start
+
+Button 2: End
+
+Button 3: reset
+
+The motor will pivot the sensors to cover a wider range
 
 
-## Example Block Diagram 
-Showing an example of how to import a screenshot of the block diagram created outside of git and brought into a page.
+## Block Diagram 
 
-![Example of Indivial Block diagram ](individual-block-diagram.png)
+![Indivial Block diagram ](individualdiagram.png)
+
+

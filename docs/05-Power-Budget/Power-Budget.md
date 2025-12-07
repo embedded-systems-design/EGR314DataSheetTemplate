@@ -3,20 +3,16 @@ title: Power Budget
 ---
 
 ## Overview
-Write a overview of what you did and why you did a Power Budget.
+Final version of my Power Budget. Updated to our last minute desing changes, adding a motor to my board and implementing power to my teams boards. Although in our demo only on of my team member utalized the power due to the other needing to be pluged in via their computer to make quick changes to their code as we were tuning our code to work together. This budget allows for plenty of headroom for our project, realisticly there should be a backup power system but the current build fits the timeline just fine. 
 
-> Capture your power budge as a image to display. Take time to get clean breaks and a well organized layout.
 
-![budget1](budgetPg1.png){style width:"350" height:"300;"}
 
-![budget2](budgetPg2.png){style width:"350" height:"300;"}
-
-![budget3](budgetPg3.png){style width:"350" height:"300;"}
+![Markdownfile1](image.png){style width:"350" height:"300;"}
 
 ## Conclusions
 
-From the prepare Power Budget, .....
+This is just a rough draft, I intend to finalize this as we get closer to closing out this project.
 
 ## Resouces
 
-The power budget as a PDF download is available [*here*](PowerBudgetExample.pdf), and a Microsoft Excel Sheet [*here*](PowerBudgetExample.xlsx).
+The power budget as a PDF download is available [*here*](Power Budget.pdf), and a Microsoft Excel Sheet [*here*](PowerBudgetSB.xlsx).
