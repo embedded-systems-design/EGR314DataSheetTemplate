@@ -40,3 +40,9 @@ I have since added a push button to work as a push to talk to only enable the mi
 </object>
 
 <embed src="Team 203BlockDiagramFinal.pdf" type="application/pdf" width="100%" height="800px" title="Embedded PDF Viewer">
+<br>
+<iframe src="Team 203BlockDiagramFinal.pdf" width="100%" height="600px">
+    This browser does not support PDFs. Please download the PDF to view it:
+    <a href="Team 203BlockDiagramFinal.pdf">Download PDF</a>.
+</iframe>
+
