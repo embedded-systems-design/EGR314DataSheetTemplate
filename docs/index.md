@@ -22,11 +22,11 @@ We are making a smart outlet that can monitor power indoor and outdoor that does
 
 ### Project Summary
 
-The goal of the project is to create a smart outlet with power monitoring features and voice recognition. Below are useful navigation links for this datasheet:
-* A link to our team's report is  [HERE](https://egr304-203.github.io/sparkguard/)
-* A link to my component section is  [HERE](https://mcastr11-collab.github.io/EGR304MannyIndividualDataSheet/02-Component-Selection/Component-Selection/)
-* A link to my schematic section is  [HERE](https://mcastr11-collab.github.io/EGR304MannyIndividualDataSheet/04-Schematic/schematic/)
-* A link to my power budget section is  [HERE](https://mcastr11-collab.github.io/EGR304MannyIndividualDataSheet/05-Power-Budget/Power-Budget/)
+The goal of the project is to create a smart outlet with power monitoring features and voice recognition. Below are useful navigation links for this datasheet:<br>
+* A link to our team's report is  [HERE](https://egr304-203.github.io/sparkguard/)<br>
+* A link to my component section is  [HERE](https://mcastr11-collab.github.io/EGR304MannyIndividualDataSheet/02-Component-Selection/Component-Selection/)<br>
+* A link to my schematic section is  [HERE](https://mcastr11-collab.github.io/EGR304MannyIndividualDataSheet/04-Schematic/schematic/)<br>
+* A link to my power budget section is  [HERE](https://mcastr11-collab.github.io/EGR304MannyIndividualDataSheet/05-Power-Budget/Power-Budget/)<br>
 
 ### Manny's Contribution
 

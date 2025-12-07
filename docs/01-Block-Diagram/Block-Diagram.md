@@ -21,28 +21,7 @@ Originally, I had the idea to have a photoresistor work as our trigger for our a
 
 I have since added a push button to work as a push to talk to only enable the mic when the button is pressed, there are also debug LEDs connected to the mic signal logic, these receive a signal from the PIC to turn on if the PTT (push to talk) button is pressed and if the voice captured by the mic was loud enough to trigger the digital out command.
 
-![Indivial Block diagram](IndividualBlockDiagram-MAC.drawio.png)<br>
-
-![Teamblocktest](Team 203BlockDiagramFinal.pdf)
-
-<object data="https://mcastr11-collab.github.io/EGR304MannyIndividualDataSheet/01-Block-Diagram/Team%20203BlockDiagramFinal.pdf" type="application/pdf" width="700px" height="700px">
-    <embed src="https://mcastr11-collab.github.io/EGR304MannyIndividualDataSheet/01-Block-Diagram/Team%20203BlockDiagramFinal.pdf">
-        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="https://mcastr11-collab.github.io/EGR304MannyIndividualDataSheet/01-Block-Diagram/Team%20203BlockDiagramFinal.pdf">Download PDF</a>.</p>
-    </embed>
-</object>
+![Indivial Block diagram](audiosensordiagram.jpg)<br>
 
 
-
-
-<!-- Embed PDF File -->
-<object src="Team 203BlockDiagramFinal.pdf" type="application/pdf" title="SamplePdf" width="500" height="720">
-    <a href="Team 203BlockDiagramFinal.pdf">shree</a> 
-</object>
-
-<embed src="Team 203BlockDiagramFinal.pdf" type="application/pdf" width="100%" height="800px" title="Embedded PDF Viewer">
-<br>
-<iframe src="Team 203BlockDiagramFinal.pdf" width="100%" height="600px">
-    This browser does not support PDFs. Please download the PDF to view it:
-    <a href="Team 203BlockDiagramFinal.pdf">Download PDF</a>.
-</iframe>
 
