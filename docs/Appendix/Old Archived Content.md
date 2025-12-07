@@ -1,9 +1,9 @@
 ---
 title: Old content Archive
 ---
-
+**Old Audio Sensor Block Diagram**
 ![Indivial Block diagram ](IndividualBlockDiagramfinal-MAC.jpg) 
-This block diagran was updated with an easier to read version with the latest design changes in mind for the voice sensor.
+This block diagran was updated with an easier to read version with the latest design changes in mind for the voice sensor. Thisone also contained highlighted text which was removed from the final version.
 
 
 
