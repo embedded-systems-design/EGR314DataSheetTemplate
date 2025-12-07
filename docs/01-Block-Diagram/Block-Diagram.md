@@ -24,3 +24,9 @@ I have since added a push button to work as a push to talk to only enable the mi
 ![Indivial Block diagram](IndividualBlockDiagram-MAC.drawio.png)<br>
 
 ![Teamblocktest](Team 203BlockDiagramFinal.pdf)
+
+<object data="https://mcastr11-collab.github.io/EGR304MannyIndividualDataSheet/01-Block-Diagram/Team%20203BlockDiagramFinal.pdf" type="application/pdf" width="700px" height="700px">
+    <embed src="https://mcastr11-collab.github.io/EGR304MannyIndividualDataSheet/01-Block-Diagram/Team%20203BlockDiagramFinal.pdf">
+        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="https://mcastr11-collab.github.io/EGR304MannyIndividualDataSheet/01-Block-Diagram/Team%20203BlockDiagramFinal.pdf">Download PDF</a>.</p>
+    </embed>
+</object>
