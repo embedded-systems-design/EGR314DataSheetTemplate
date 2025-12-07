@@ -12,7 +12,7 @@ This is my most up to date schematic in which I changed the last design a bit in
     <embed src="https://mcastr11-collab.github.io/EGR304MannyIndividualDataSheet/04-Schematic/AudioSensorV4.2.pdf">
         <p>This browser does not support PDFs. Please download the PDF to view it: <a href="https://mcastr11-collab.github.io/EGR304MannyIndividualDataSheet/04-Schematic/AudioSensorV4.2.pdf">Download PDF</a>.</p>
     </embed>
-</object><br>
+</object>
 
 **Figure 1:** Final schematic.<br>
 
