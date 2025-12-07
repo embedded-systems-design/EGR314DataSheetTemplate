@@ -38,3 +38,5 @@ I have since added a push button to work as a push to talk to only enable the mi
 <object src="Team 203BlockDiagramFinal.pdf" type="application/pdf" title="SamplePdf" width="500" height="720">
     <a href="Team 203BlockDiagramFinal.pdf">shree</a> 
 </object>
+
+<embed src="Team 203BlockDiagramFinal.pdf" type="application/pdf" width="100%" height="800px" title="Embedded PDF Viewer">
