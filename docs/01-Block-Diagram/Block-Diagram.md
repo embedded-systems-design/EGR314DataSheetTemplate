@@ -6,19 +6,35 @@ tags:
 ---
 
 ## Overview
-This needs to be updated with a brief purpose for having the block diagram.
-Things to mention are:
-* power levels
-* sensor
-* Actuator
-* team connections
-* Power source
-* ...
 
-To get some initial formatting help, one can view ["here"](https://embedded-systems-design.github.io/EGR304DataSheetTemplate/Appendix/basic-markdown-examples/) some basic techniques.
+The purpose of this diagram is to quickly visualize the scope of the prototype PCB I am building with all core functions. The diagram will show the power required for each component and what components will be supplying this power with labeled arrows. The PCB is composed of a group of components chosen to help achieve voice activation, sent out a digital signal to operate a linear actuator on separate PCB, and protect the outlet from tampering with a weather resistant cover. As you will note after looking at the diagram below, there are only outbound connections from this PCB. This PCB serves as the initiator of the logic chain. Below are some bullet points with relevant informaiton:<br><br>
+- **Power**<br>
+The components use power from two different sources. The main one being the 9V 500mA DC wall adapter plug, then a linear voltage regulator, operating at 5V/100mA<br><br>
+- **Sensor**<br>
+There is one microphone analog sensor that will provide data to our PIC for use as our voice sensor.<br><br>
+- **Push Button**<br>
+The push button serve as a push to talk to prevent the microphone from always listening.<br><br>
+- **SPARE/ Expansion**<br>
+These are component connections added for redundancy puroses in case the primary component fails. There is one spare lane for the microphone for both signal into the microcontroller and signal out.These may also be added to expand the functionality of this device in the future.<br><br>
 
+## Block Diagram 
+Originally, I had the idea to have a photoresistor work as our trigger for our actuator. I decided against it since we wanted something more secure that would not be triggered by wildlife or children, so I came up wiht a microphone activated actuator sensor. This sensor will process a loud voice using a bandpass filter to remove hisses and background noise, then it feeds it to an op amp for signal amplification. The filtered and amplidied signal is then fed into the microcontroller, which converts the signal from analog to digital via ADC so it can analyze if the voice was loud enough to trigger a digital out command. If it is, it will send a high signal to the first pin of our 8 pin connector via a GPIO pin, which will feed it to an LED indicator and Ayush's actuator subsystem on a separate PCB. Please see [Team 203 Spark Guard](https://egr304-203.github.io/sparkguard/06-Team-block-diagram/) to view our team block diagram with all subsystems put toghether.
 
-## Example Block Diagram 
-Showing an example of how to import a screenshot of the block diagram created outside of git and brought into a page.
+In addition, I added a push button to work as a push to talk to only enable the mic when the PTT (push to talk) button is pressed, there is also a LED connected to the mic PTT button signal via code. This LED is programmed to receive a signal from the microcontroller to turn on if the PTT (push to talk) button is pressed.
 
-![Example of Indivial Block diagram ](individual-block-diagram.png)
+I had also wanted to use the Goertzel algorithm in order to analyze the amplitude of the signal coming out of the microphone, but upon researching it I decided against it since it added unnecesary complexity that may have made the design more unreliable. A link to more infomation about the Goertzel may be found [here](http://ww1.microchip.com/downloads/en/devicedoc/70332b.pdf).
+
+![Indivial Block diagram](audiosensordiagram.jpg)<br>
+
+## How team product requirements are met by this design <br>
+
+*	The audio sensor subsystem fulfills the multi-control and safety requirements (2.1, 2.1.1, 3.5.1, 6) by providing a voice-activated and button-based interface that drives the outlet-locking mechanism via a clean digital signal. <br>
+*	The LEDs on the board provide direct visual feedback of audio detection and control state, satisfying 3.2.1 and 3.5.1. <br>
+*	Using a PIC Curiosity Nano on headers with spare I/O supports customization and reprogramming requirements (4.1.x, 5.3.1). <br>
+*	The modular PCB design, 5V regulation, and planned V2.0 layout improvements support the manufacturing and compactness requirements (1.1, 5.1). <br>
+
+<br>
+
+## Related Files
+A link to all image files and draw.io files for the block diagram may be found [here](Block-diagram-images.zip)
+
