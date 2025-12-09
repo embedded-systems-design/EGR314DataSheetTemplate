@@ -225,6 +225,6 @@ I updated my component list to show the current scope of our project.
 
 <br>
 
-## MCC Configuration Modules & Pins
+## MCC Configuration Modules & Pins <br>
 
-[MCC](MCCConfig.jpg)
+![MCC](MCCConfig.jpg)

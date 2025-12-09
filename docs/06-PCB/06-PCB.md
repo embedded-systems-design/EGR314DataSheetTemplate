@@ -5,7 +5,7 @@ tags:
 - tag2
 ---
 
-Below is my final pcb print file that was used to spin my prototype board for my audio sensor circuit. You may also download ithe MPLab drill files from this archive [here](MAC Individual Audio Sensor.zip)
+Below is my final pcb print file that was used to spin my prototype board for my audio sensor circuit. You may also download ithe MPLab drill files from the [Resources](https://mcastr11-collab.github.io/EGR304MannyIndividualDataSheet/Appendix/Resources/) page.
 
 <object data="https://mcastr11-collab.github.io/EGR304MannyIndividualDataSheet/06-PCB/MAC Individual SubsystemAudioSensorPCBLayers.pdf" type="application/pdf" width="700px" height="700px">
     <embed src="https://mcastr11-collab.github.io/EGR304MannyIndividualDataSheet/06-PCB/MAC Individual SubsystemAudioSensorPCBLayers.pdf">

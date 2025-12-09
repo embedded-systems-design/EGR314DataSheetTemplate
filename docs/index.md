@@ -40,6 +40,6 @@ The goal of the project is to create a smart outlet with power monitoring featur
 * This is a link to my [Individual Block Diagram](https://mcastr11-collab.github.io/EGR304MannyIndividualDataSheet/01-Block-Diagram/Block-Diagram/) where an overview of all used components for the project will be shown in blocks, detailing power requirements, pin connections, and the components used.
 
 
-* To review the details listed of the material used to construct the subsection, you can review it in the ["BOM"](https://embedded-systems-design.github.io/EGR304DataSheetTemplate/03-BOM/BOM/) section of the datasheet.
+* To review the details listed of the material used to construct the subsection, you can review it in the ["BOM"](https://mcastr11-collab.github.io/EGR304MannyIndividualDataSheet/03-BOM/BOM/) section of the datasheet.
 
-* Additional resources may be found on the [Resouces] () page
+* Additional resources may be found on the [Resouces] (https://mcastr11-collab.github.io/EGR304MannyIndividualDataSheet/Appendix/Resources/) page.

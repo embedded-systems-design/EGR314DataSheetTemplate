@@ -2,7 +2,6 @@
 title: Hardware 2.0
 ---
 
-<br>
 
 ## Reliability
 For a Version 2.0 of the microphone audio sensor subsystem, the primary focus would be on improving reliability, reducing PCB size, and refining the overall design to better suit the physical constraints of the smart outlet enclosure. The current design includes a band-pass filter and an audio gate used to condition the microphone signal before it reaches the microcontroller. However, after evaluating system performance and the redundancy revealed during testing, the audio gate would likely be removed in the next revision. Eliminating this component not only simplifies the signal path but also reduces board space and removes an unnecessary point of failure, making the subsystem more efficient and easier to integrate.
