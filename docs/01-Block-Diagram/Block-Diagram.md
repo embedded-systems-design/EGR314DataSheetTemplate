@@ -1,24 +1,16 @@
 ---
 title: Individal Block Diagram
 tags:
-- tag1
+- Myles White
 - tag2
 ---
 
 ## Overview
-This needs to be updated with a brief purpose for having the block diagram.
-Things to mention are:
-* power levels
-* sensor
-* Actuator
-* team connections
-* Power source
-* ...
-
-To get some initial formatting help, one can view ["here"](https://embedded-systems-design.github.io/EGR304DataSheetTemplate/Appendix/basic-markdown-examples/) some basic techniques.
+(Speaker/Alert Board) Generates audio Feedback when button or potentiometer state is changed. 
 
 
-## Example Block Diagram 
-Showing an example of how to import a screenshot of the block diagram created outside of git and brought into a page.
+![Individual Block Diagram](./FinalBlock1.drawio.png)
 
-![Example of Indivial Block diagram ](individual-block-diagram.png)
+The power supply and voltage regulator provides a 5V source for all electronics. The partner control input and manual test button allow both system level triggering andlocal testig of the speaker subsyste,. The PIC microcontroller proceses these inputs and generates a PWM signal used to create an audible tone. The push pull amplifier increases the signal strength to drive the speaker, while the coupling capacitor removes DC offset for clean audio output. Status LED provide visual confirmation of system activity.Together, these blocks ensure realible real time audible feedback, independent testing capability and safe operation within system limits. 
+
+
