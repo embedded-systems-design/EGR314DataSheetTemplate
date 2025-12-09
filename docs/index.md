@@ -7,12 +7,19 @@ tags:
 <center>
 <font size= "6">(Manuel Castro's) Datasheet</font><br>
 as part of<br>
-<font size= "8"> Manny's Individual Project</font><br>
+<font size= "8"> Manny's Audio Sentor System Project</font><br>
 for<br>
 <font size= "5"> Team 203 </font><br>
 
 **Submission: 12,06,2025**
 </center>
+<br>
+
+<p align="center">
+    <img src="Mannys Audio Sensor.png">
+</p>
+
+<br>
 
 ## Introduction
 
@@ -33,4 +40,6 @@ The goal of the project is to create a smart outlet with power monitoring featur
 * This is a link to my [Individual Block Diagram](https://mcastr11-collab.github.io/EGR304MannyIndividualDataSheet/01-Block-Diagram/Block-Diagram/) where an overview of all used components for the project will be shown in blocks, detailing power requirements, pin connections, and the components used.
 
 
-To review the details listed of the material used to construct the subsection, you can review it in the ["BOM"](https://embedded-systems-design.github.io/EGR304DataSheetTemplate/03-BOM/BOM/) section of the datasheet.
+* To review the details listed of the material used to construct the subsection, you can review it in the ["BOM"](https://embedded-systems-design.github.io/EGR304DataSheetTemplate/03-BOM/BOM/) section of the datasheet.
+
+* Additional resources may be found on the [Resouces] () page

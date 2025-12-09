@@ -22,7 +22,19 @@ Originally, I had the idea to have a photoresistor work as our trigger for our a
 
 In addition, I added a push button to work as a push to talk to only enable the mic when the PTT (push to talk) button is pressed, there is also a LED connected to the mic PTT button signal via code. This LED is programmed to receive a signal from the microcontroller to turn on if the PTT (push to talk) button is pressed.
 
+I had also wanted to use the Goertzel algorithm in order to analyze the amplitude of the signal coming out of the microphone, but upon researching it I decided against it since it added unnecesary complexity that may have made the design more unreliable. A link to more infomation about the Goertzel may be found [here](http://ww1.microchip.com/downloads/en/devicedoc/70332b.pdf).
+
 ![Indivial Block diagram](audiosensordiagram.jpg)<br>
 
+## How team product requirements are met by this design <br>
 
+*	The audio sensor subsystem fulfills the multi-control and safety requirements (2.1, 2.1.1, 3.5.1, 6) by providing a voice-activated and button-based interface that drives the outlet-locking mechanism via a clean digital signal. <br>
+*	The LEDs on the board provide direct visual feedback of audio detection and control state, satisfying 3.2.1 and 3.5.1. <br>
+*	Using a PIC Curiosity Nano on headers with spare I/O supports customization and reprogramming requirements (4.1.x, 5.3.1). <br>
+*	The modular PCB design, 5V regulation, and planned V2.0 layout improvements support the manufacturing and compactness requirements (1.1, 5.1). <br>
+
+<br>
+
+## Related Files
+A link to all image files and draw.io files for the block diagram may be found [here](Block-diagram-images.zip)
 

@@ -18,5 +18,6 @@ This is my most up to date schematic in which I changed the last design a bit in
 
 ## Resouces
 
-The schematic as a PDF download is available [*here*](AudioSensorV4.2.pdf), and the Zip folder of the project schematics [*here*](MAC Individual Audio Sensor.zip).
-Link to resourses of the DSP [Geoertzel algorithm](http://ww1.microchip.com/downloads/en/devicedoc/70332b.pdf).
+The schematic as a PDF download is available [*here*](AudioSensorV4.2.pdf), and the Zip folder of the project schematics [*here*](MAC Individual Audio Sensor.zip). <br>
+
+If you need the source files for the schematic, please see the [Resources](https://mcastr11-collab.github.io/EGR304MannyIndividualDataSheet/Appendix/Resources) section.

@@ -10,10 +10,11 @@ Below is the build of materials for my individual design. Most of the parts were
 
 
 
-## Bill of Materials
-![](MAC-BOM.jpg){style width: "2000"}
+## Bill of Materials <br>
+
+![BOM](BOM Final.jpg){style width: "2000"}
 **Figure 2:** Bill of Materials.<br><br>
 
 ## Resouces
 
-The BOM excel file can be donwloaded [*here*](Manny-sparkguard-BOM.xlsx),
+The final BOM excel file can be donwloaded [*here*](Manny-sparkguard-BOM Final.xlsx),

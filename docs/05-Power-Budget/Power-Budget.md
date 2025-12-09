@@ -8,7 +8,7 @@ To do the power budject, I looked at each component of my susbsystem and researc
 
 > Below is my most up to date power budget for the project. The older versions can be found in as archived versions in the file dowload links under "Resources" section at the bottom of the page.<br><br>
 Power budget V3
-![budget1](powerbudgetv3.jpg){style width:"350" height:"300;"}<br><br>
+![budget1](powerbudgetv4.jpg){style width:"350" height:"300;"}<br><br>
 
 
 ## Conclusions
@@ -17,4 +17,6 @@ The completed power budget demonstrates that the system’s power distribution i
 
 ## Resouces
 
-You may access the power budget Microsoft Excel Sheet file [*here*](powerbudget.7z). The power budget image files are [*HERE](powerbudgetimages.7z)
+You may access the power budget Microsoft Excel Sheet file [*here*](Power Budget egr 304v4.xlsx). <br>
+
+The power budget image files are [*HERE](PowerBudgetImages.zip)
