@@ -6,23 +6,11 @@ tags:
 ---
 
 ## Overview
-written context
+Components required for assembling the water detection system's audio alert module. The component selection process involves choosing the LM4810MMX/NOPB stereo audio amplifier for its optimal balance of performance, cost, and power efficiency, which is critical for a reliable and long-lasting water alert system. The table below provides a list of the primary integrated circuits, including quantity, cost, manufacturer part numbers, and relevant links for procurement and technical documentation. This structured format ensures all necessary information is readily accessible for sourcing, assembly, and circuit design integration.
 
-## Bill of Materials Example (as Table)
-
-*Table ##: An example of one approach to adding your BOM table to this section.*
+## Bill of Materials
 
 | **Part Name/Description** | **Qty** | **Unit Cost** | **Total Cost** | **Manufacture** | **Manufacturer #** | **Vendor Link** |**Datasheet Link** | **Schematic Reference Designators** |
 |:--------------------|:----|:---------------|:-----|:--------|:-----|:-----|:----|:-----|
-8-bit SIPO/SISO Shift Register, SOIC-16 package | 1 | $0.49 | $ 0.49 | NXP | 74HC595D,112 | [DigiKey](https://www.digikey.com/en/products/detail/nexperia-usa-inc/74HC595D-112/763550) | [datasheet link](https://assets.nexperia.com/documents/data-sheet/74HC_HCT595.pdf) | U1 |
-0.1 µF Ceramic Capacitor, +/-10%, X7R, 50V, 0805 package |10 | 0.2750 | $2.75 | KEMET | C0805F104K5RACTU | PRLTA 109 |n/a | C2, C4, C6, C7, C8, C9, C10, C11, C12, C16
-
-Note: Setting it up as a table is nice because it is completely viewable without scaling issues. <ins>Downside</ins> is that you have to do the math.
-
-* You could also import your BOM via a screenshot of the spreadsheet created BOM
-
-## Bill of Materials Example (as Image)
-![](BOM-Screenshot.png){style width: "2000"}
-**Figure 2:** Example Bill of Materials as a screenshot.
-
-As you can see, the text can be difficult to read without opening the image.
+IC AMP CLSS AB STER 105MW 8VSSOP |1 | $0.76 | $0.76 | Texas Instruments | LM4810MMX/NOPB | [DigiKey](https://www.digikey.com/short/b15vb9vr) | [Datasheet link](https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Flm4810) | U1
+SPEAKER 8OHM 800MW TOP PORT 93DB |1 | $2.25 | $2.25 | Soberton Inc. | SP-1504 | [Digikey](https://www.digikey.com/short/19mz4j04) | [Datashee link](https://www.soberton.com/wp-content/uploads/2018/07/SP-1504-June-2018.pdf) | C1 R1

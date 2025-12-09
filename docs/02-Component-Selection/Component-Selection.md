@@ -1,58 +1,67 @@
 ---
 title: Component Selection Example
----
 
-## Examples
+**Speaker**
 
-### Style 1
+1.  SP-1504
+   
+    ![](S1.png)
 
-> This is the example found in the assignment, uses more html
-
-*Table 1: Example component selection*
-
-**External Clock Module**
-
-| **Solution**                                                                                                                                                                                      | **Pros**                                                                                                                                    | **Cons**                                                                                            |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
-| ![](image1.png)<br>Option 1.<br> XC1259TR-ND surface mount crystal<br>$1/each<br>[link to product](http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366)                 | \* Inexpensive[^1]<br>\* Compatible with PSoC<br>\* Meets surface mount constraint of project                                               | \* Requires external components and support circuitry for interface<br>\* Needs special PCB layout. |
-| ![](image3.png)<br>\* Option 2. <br>\* CTX936TR-ND surface mount oscillator <br>\* $1/each <br>\* [Link to product](http://www.digikey.com/product-detail/en/636L3I001M84320/CTX936TR-ND/2292940) | \* Outputs a square wave <br>\* Stable over operating temperature <br> \* Direct interface with PSoC (no external circuitry required) range | * More expensive <br>\* Slow shipping speed                                                         |
-
-**Choice:** Option 2: CTX936TR-ND surface mount oscillator
-
-**Rationale:** A clock oscillator is easier to work with because it requires no external circuitry in order to interface with the PSoC. This is particularly important because we are not sure of the electrical characteristics of the PCB, which could affect the oscillation of a crystal. While the shipping speed is slow, according to the website if we order this week it will arrive within 3 weeks.
-
-### Style 2
-
-> Also acceptable, more markdown friendly
-
-**External Clock Module**
-
-1. XC1259TR-ND surface mount crystal
-
-    ![](image1.png)
-
-    * $1/each
-    * [link to product](http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366)
-
-    | Pros                                      | Cons                                                             |
-    | ----------------------------------------- | ---------------------------------------------------------------- |
-    | Inexpensive                               | Requires external components and support circuitry for interface |
-    | Compatible with PSoC                      | Needs special PCB layout.                                        |
-    | Meets surface mount constraint of project |
-
-1. CTX936TR-ND surface mount oscillator
-
-    ![](image3.png)
-
-    * $1/each
-    * [Link to product](http://www.digikey.com/product-detail/en/636L3I001M84320/CTX936TR-ND/2292940)
+    * $2/each
+    * [Link to product](https://www.digikey.com/short/f19wq4nn)
 
     | Pros                                                              | Cons                |
     | ----------------------------------------------------------------- | ------------------- |
-    | Outputs a square wave                                             | More expensive      |
-    | Stable over operating temperature                                 | Slow shipping speed |
-    | Direct interface with PSoC (no external circuitry required) range |
+    |    Compact size fits small                            |  Lower sound output              |
+    |    Low power and compatible with small amplifiers     |  Limited frequency               |
+    |    Suitable for basic alert tones                     |  Not ideal for loud environments |
 
-**Choice:** Option 2: CTX936TR-ND surface mount oscillator
+2.  SP-3605
+   
+    ![](S2.png)
 
-**Rationale:** A clock oscillator is easier to work with because it requires no external circuitry in order to interface with the PSoC. This is particularly important because we are not sure of the electrical characteristics of the PCB, which could affect the oscillation of a crystal. While the shipping speed is slow, according to the website if we order this week it will arrive within 3 weeks.
+    * $3/each
+    * [Link to product](https://www.digikey.com/short/3mwtr4zn)
+
+    | Pros                                                              | Cons                |
+    | ----------------------------------------------------------------- | ------------------- |
+    |     Louder sound output, ideal for alerts                |     Slightly larger size       |
+    |     Wider frequency response for clearer audio           |     Higher power consumption   |
+    |     Durable and reliable for long-term use               | 
+
+**Choice:** Option 1: SP-1504 
+
+**Rationale:** The SP-1504 was chosen because it meets the project’s need for a compact, low-power speaker that can clearly produce alert sounds when water is detected. Its small form factor makes it easy to integrate into the enclosure, and it works efficiently with the chosen amplifier without requiring additional power circuitry.
+
+
+**Audio Amplifier Module**
+
+1. LM4810MMX/NOPB surface mount Integrated Circuits (ICs)
+
+    ![](P4.png)
+
+    * $1/each
+    * [link to product](https://www.digikey.com/short/b15vb9vr)
+
+    | Pros                                      | Cons                                                             |
+    | ----------------------------------------- | ---------------------------------------------------------------- |
+    | Low power consumption suitable for battery| Limited output power for large speakers                          |
+    | clean audio alerts                        | Requires external capacitors for optimal performance             |
+    | Small footprint fits compact PCB designs  | 
+
+2. TPA4411RTJR surface mount Integrated Circuits (ICs)
+   
+    ![](P2.png)
+
+    * $1/each
+    * [Link to product](https://www.digikey.com/short/p25b5w03)
+
+    | Pros                                                              | Cons                |
+    | ----------------------------------------------------------------- | ------------------- |
+    | clear mono audio output with low distortion                       | More expensive      |
+    | Built-in shutdown mode to save power when idle                    | Requires PCB layout for noise reduction|
+    | small speaker in water detection system                           | 
+
+**Choice:** Option 1: LM4810MMX/NOPB surface mount Integrated Circuits (ICs)
+
+**Rationale:** The LM4810MMX/NOPB is a low-power stereo audio amplifier we use in the water detector to boost the alert sound from a sensor signal, ensuring a clear and audible warning when water is detected and can save up power ensuring it will keep up the alarm until someone comes.
