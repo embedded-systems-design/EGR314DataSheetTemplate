@@ -1,58 +1,64 @@
 ---
-title: Component Selection Example
+title: Component Selection
+
+tags:
+- tag1
+- tag2
 ---
 
-## Examples
+## MOSFET
 
-### Style 1
+| **Solution**                                                                                                                                                                                                                                                         | **Pros**                                                                             | **Cons**                                                                                            |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| -------------------------------------------------------------------------------------| --------------------------------------------------------------------------------------------------- |
+| ![](T2N7002AKLMDKR-ND.png)<br>Option 1.<br> N-Channel 60 V 200mA (Ta) 320mW (Ta) Surface Mount SOT-23-3<br>$0.13/each<br>[Product Link](https://www.digikey.com/en/products/detail/toshiba-semiconductor-and-storage/T2N7002AK-LM/5298028)                        | \* Inexpensive<br>\* Low profile                                                     | \* Less durable due to surface mount                                                                   |
+| ![](2N7002-FDIDKR-ND.png)<br>\* Option 2. <br>\* N-Channel 60 V 115mA (Ta) 370mW (Ta) Surface Mount SOT-23-3 <br>\* $0.14/each <br>\* [Product Link](https://www.digikey.com/en/products/detail/diodes-incorporated/2N7002-7-F/717681)                            | \* Inexpensive <br>\* Shorter shipping time                                          | * Less durable due to surface mount <br>\* Slow shipping speed                                         |
+| ![](785-1442-5-ND.png)<br>\* Option 3. <br>\* N-Channel 60 V 7A (Ta), 22A (Tc) 2.1W (Ta), 23.5W (Tc) Through Hole TO-220F <br>\* $1.66/each <br>\* [Product Link](https://www.digikey.com/en/products/detail/alpha-omega-semiconductor-inc/AOTF2618L/3603382)     | \* More durable through-hole connector <br>\* Larger operating temperature threshold | * More expensive                                                                                     
 
-> This is the example found in the assignment, uses more html
+**Choice:** Option 3: N-Channel 60 V 7A (Ta), 22A (Tc) 2.1W (Ta), 23.5W (Tc) Through Hole TO-220F
 
-*Table 1: Example component selection*
+**Rationale:** Through-hole connectors are easier to work with and are more durable than surface mounts.
 
-**External Clock Module**
+## Voltage Regulator
 
-| **Solution**                                                                                                                                                                                      | **Pros**                                                                                                                                    | **Cons**                                                                                            |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
-| ![](image1.png)<br>Option 1.<br> XC1259TR-ND surface mount crystal<br>$1/each<br>[link to product](http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366)                 | \* Inexpensive[^1]<br>\* Compatible with PSoC<br>\* Meets surface mount constraint of project                                               | \* Requires external components and support circuitry for interface<br>\* Needs special PCB layout. |
-| ![](image3.png)<br>\* Option 2. <br>\* CTX936TR-ND surface mount oscillator <br>\* $1/each <br>\* [Link to product](http://www.digikey.com/product-detail/en/636L3I001M84320/CTX936TR-ND/2292940) | \* Outputs a square wave <br>\* Stable over operating temperature <br> \* Direct interface with PSoC (no external circuitry required) range | * More expensive <br>\* Slow shipping speed                                                         |
+| **Solution**                                                                                                                                                                                                                                                            | **Pros**                                                                             | **Cons**                                                                                            |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| -------------------------------------------------------------------------------------| --------------------------------------------------------------------------------------------------- |
+| ![](LM340T-5.0NOPB-ND.png)<br>Option 1.<br> Linear Voltage Regulator IC Positive Fixed 1 Output 1.5A TO-220-3L<br>$1.80/each<br>[Product Link](https://www.digikey.com/en/products/detail/texas-instruments/LM340T-5-0-NOPB/6237)                                      |                                                                                       | \* More expensive <br>\* Less features <br>\* Longer  shipping time                                 |
+| ![](5536-LM7805T-ND.png)<br>\* Option 2. <br>\* Linear Voltage Regulator IC Positive Fixed 1 Output 1.5A TO-220-3L <br>\* $0.33/each <br>\* [Product Link](https://www.digikey.com/en/products/detail/taejin/LM7805T/22237260)                                          | \* Inexpensive <br>\* Shorter shipping time <br>\* More features                     | * Massive shipping fee                                                                              |
+| ![](353-MC7805CT-BP-HF-ND.png)<br>\* Option 3. <br>\* Linear Voltage Regulator IC Positive Fixed 1 Output 1.5A TO-220AB <br>\* $0.34/each <br>\* [Product Link](https://www.digikey.com/en/products/detail/mcc-micro-commercial-components/MC7805CT-BP-HF/17949017)     | \* Inexpensive <br>\* More features                                                  | * Longer shipping time                                                                              |   
 
-**Choice:** Option 2: CTX936TR-ND surface mount oscillator
+**Choice:** Option 2: Linear Voltage Regulator IC Positive Fixed 1 Output 1.5A TO-220-3L
 
-**Rationale:** A clock oscillator is easier to work with because it requires no external circuitry in order to interface with the PSoC. This is particularly important because we are not sure of the electrical characteristics of the PCB, which could affect the oscillation of a crystal. While the shipping speed is slow, according to the website if we order this week it will arrive within 3 weeks.
+**Rationale:** Cheapest option with the most features.   
 
-### Style 2
+## H-Bridge
 
-> Also acceptable, more markdown friendly
+| **Solution**                                                                                                                                                                                                                                                            | **Pros**                                                                             | **Cons**                                                                                            |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| -------------------------------------------------------------------------------------| --------------------------------------------------------------------------------------------------- |
+| ![](4489.png)<br>Option 1.<br> L9110H H-BRIDGE 8DIP MOTOR DRIVE<br>$1.50/each<br>[Product Link](https://www.digikey.com/en/products/detail/adafruit-industries-llc/4489/11594498)                                                                                       | \* Smaller footprint                                                                 | \* More expensive                             |
+| ![](FAN8100N.png)<br>\* Option 2. <br>\* BRUSH DC MOTOR CONTROLLER <br>\* $1.16/each <br>\* [Product Link](https://www.digikey.com/en/products/detail/rochester-electronics-llc/FAN8100N/11558200)                                                               | \* Inexpensive <br>\* Shorter shipping time <br>\*                                   | \* Massive shipping fee                                                                              |
+ 
+**Choice:** Option 2: BRUSH DC MOTOR CONTROLLER
 
-**External Clock Module**
+**Rationale:** Cheaper option that fulfils requirements.   
 
-1. XC1259TR-ND surface mount crystal
+## LED
 
-    ![](image1.png)
+| **Solution**                                                                                                                                                                                                                                                            | **Pros**                                                                             | **Cons**                                                                                            |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| -------------------------------------------------------------------------------------| --------------------------------------------------------------------------------------------------- |
+| ![](XBUG53D.png)<br>Option 1.<br> LED GREEN DIFFUSED T-1 3/4 T/H<br>$1.10/each<br>[Product Link](https://www.digikey.com/en/products/detail/sunled/XBUG53D/4901580)                                                                                                     | \* Higher forward voltage                                                            | \* Slightly more expensive                                                                          |
+| ![](HLMP-1640.png)<br>\* Option 2. <br>\* LED GREEN DIFFUSED T-1 T/H <br>\* $1.05/each <br>\* [Product Link](https://www.digikey.com/en/products/detail/broadcom-limited/HLMP-1640/637570)                                                                              | \* Slightly cheaper                                                                  | \* Lower forward voltage                                                                            |
+ 
+**Choice:** Option 1: LED GREEN DIFFUSED T-1 3/4 T/H
 
-    * $1/each
-    * [link to product](http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366)
+**Rationale:** Higher forward voltage.   
 
-    | Pros                                      | Cons                                                             |
-    | ----------------------------------------- | ---------------------------------------------------------------- |
-    | Inexpensive                               | Requires external components and support circuitry for interface |
-    | Compatible with PSoC                      | Needs special PCB layout.                                        |
-    | Meets surface mount constraint of project |
+## DC Motor
 
-1. CTX936TR-ND surface mount oscillator
+| **Solution**                                                                                                                                                                                                                                                            | **Pros**                                                                             | **Cons**                                                                                            |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| -------------------------------------------------------------------------------------| --------------------------------------------------------------------------------------------------- |
+| ![](11696.png)<br>Option 1.<br> STANDARD MOTOR 6600 RPM 12V<br>$2.75/each<br>[Product Link](https://www.digikey.com/en/products/detail/sparkfun-electronics/11696/6163657)                                                                                              | \* Cheaper                                                                           | \* Lower RPM                                                                                        |
+| ![](PAN14EE12AA1.png)<br>\* Option 2. <br>\* STANDARD MOTOR 12850 RPM 12V <br>\* $5.22/each <br>\* [Product Link](https://www.digikey.com/en/products/detail/nmb-technologies-corporation/PAN14EE12AA1/2417070)                                                         | \* Higher RPM                                                                        | \* More  expensive                                                                                  |
+ 
+**Choice:** Option 1: STANDARD MOTOR 6600 RPM 12V
 
-    ![](image3.png)
-
-    * $1/each
-    * [Link to product](http://www.digikey.com/product-detail/en/636L3I001M84320/CTX936TR-ND/2292940)
-
-    | Pros                                                              | Cons                |
-    | ----------------------------------------------------------------- | ------------------- |
-    | Outputs a square wave                                             | More expensive      |
-    | Stable over operating temperature                                 | Slow shipping speed |
-    | Direct interface with PSoC (no external circuitry required) range |
-
-**Choice:** Option 2: CTX936TR-ND surface mount oscillator
-
-**Rationale:** A clock oscillator is easier to work with because it requires no external circuitry in order to interface with the PSoC. This is particularly important because we are not sure of the electrical characteristics of the PCB, which could affect the oscillation of a crystal. While the shipping speed is slow, according to the website if we order this week it will arrive within 3 weeks.
+**Rationale:** Higher RPM unnecessary, cheaper cost is prioritized.

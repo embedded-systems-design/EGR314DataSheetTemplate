@@ -3,20 +3,16 @@ title: Power Budget
 ---
 
 ## Overview
-Write a overview of what you did and why you did a Power Budget.
+This power budget outlines the power usage across the circuit and aims to make sure the circuit has enough to operate.
 
-> Capture your power budge as a image to display. Take time to get clean breaks and a well organized layout.
+![budget1](Budget1.png){style width:"350" height:"300;"}
 
-![budget1](budgetPg1.png){style width:"350" height:"300;"}
-
-![budget2](budgetPg2.png){style width:"350" height:"300;"}
-
-![budget3](budgetPg3.png){style width:"350" height:"300;"}
+![budget2](Budget2.png){style width:"350" height:"300;"}
 
 ## Conclusions
 
-From the prepare Power Budget, .....
+The power budget shows that the circuit is able to operate at full capacity using the current power supply systems.
 
 ## Resouces
 
-The power budget as a PDF download is available [*here*](PowerBudgetExample.pdf), and a Microsoft Excel Sheet [*here*](PowerBudgetExample.xlsx).
+The power budget as a PDF download is available [*here*](Power Budget.pdf), and a Microsoft Excel Sheet [*here*](Power Budget.xlsx).
