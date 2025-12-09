@@ -21,7 +21,7 @@ Below is my final pcb print file that was used to spin my prototype board for my
 <br>
 
 ![PCB 3D Back](PCB3D-back.jpg) <br>
-**Figure 2** Kicad PCB Designer front 3D render of PCB
+**Figure 2** Kicad PCB Designer back 3D render of PCB
 <br>
 
 ![PCB RAW Front](PCB-RAW-Front.jpg) <br>
