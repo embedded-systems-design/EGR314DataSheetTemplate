@@ -25,7 +25,7 @@ theme:
     - content.action.edit
     - navigation.footer
 #    - navigation.sections
-#    - navigation.expand
+    - navigation.expand
 #    - navigation.instant # doesn't work that well
 
 markdown_extensions:
