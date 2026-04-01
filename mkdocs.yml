@@ -74,7 +74,7 @@ nav:
   - Requirements: 01-Requirements/Requirements.md
   - Block Diagram: 02-Block-Diagram/Block-Diagram.md
   - Component Selection: 03-Component-Selection/Component-Selection.md
-  - Power Budget: 05-Power-Budget/Power-Budget.md
+  - Power Budget: 10-Power-Budget/Power-Budget.md
   - Schematic: 05-Schematic/schematic.md
   - BOM: 04-BOM/BOM.md
   - PCB: 06-PCB/pcb.md
