@@ -16,6 +16,7 @@ theme:
   features:
     - navigation.tabs
     - navigation.tabs.sticky
+    - navigation.tabs.overflow
     - toc.follow    
     - navigation.top
     - navigation.path
@@ -67,3 +68,22 @@ extra:
     - icon: fontawesome/regular/file-code
       link: /2026_spring
       name: 2023 Site    
+
+nav:
+  - Home: index.md
+  - Requirements: 01-Requirements/Requirements.md
+  - Block Diagram: 02-Block-Diagram/Block-Diagram.md
+  - Component Selection: 03-Component-Selection/Component-Selection.md
+  - Power Budget: 05-Power-Budget/Power-Budget.md
+  - Schematic: 05-Schematic/schematic.md
+  - BOM: 04-BOM/BOM.md
+  - PCB: 06-PCB/pcb.md
+  - API: 07-API\test2.md
+  - Module Verification: 08-Verifaction/testing.md
+  - Reflection: 09-Reflection/Reflection.md
+  - Appendix:
+      - Overview: Appendix/index.md
+      - Apen-1: Appendix/another-subfile.md
+      - Apen-2: Appendix/charts.md
+      - Apen-3: Appendix/esp-32-table.md
+      - Apen-4: Appendix/basic-markdown-examples.md
