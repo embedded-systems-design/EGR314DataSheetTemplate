@@ -83,6 +83,8 @@ nav:
  # - Reflection: 09-Reflection/Reflection.md
   - Appendix:
       - Overview: Appendix/index.md
+      - A1 Component Selection: Component-Selection/Component-Selection-Process.md
+      - A2 Microcontroller Selection: 02-Microcontroller-Selection/esp-32-table.md
       - Apen-1: Appendix/another-subfile.md
       - Apen-2: Appendix/charts.md
       - Apen-3: Appendix/esp-32-table.md
