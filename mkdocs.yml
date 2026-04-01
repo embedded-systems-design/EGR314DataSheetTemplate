@@ -77,10 +77,10 @@ nav:
   - Power Budget: 05-Power-Budget/Power-Budget.md
   - Schematic: 05-Schematic/schematic.md
   - BOM: 04-BOM/BOM.md
-  - PCB: 06-PCB/pcb.md
-  - API: 07-API\test2.md
+ # - PCB: 06-PCB/pcb.md
+ # - API: 07-API\test2.md
   - Module Verification: 08-Verifaction/testing.md
-  - Reflection: 09-Reflection/Reflection.md
+ # - Reflection: 09-Reflection/Reflection.md
   - Appendix:
       - Overview: Appendix/index.md
       - Apen-1: Appendix/another-subfile.md
