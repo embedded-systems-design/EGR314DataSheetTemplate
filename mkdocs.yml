@@ -84,8 +84,10 @@ nav:
   - Appendix:
       - Overview: Appendix/index.md
       - A1 Component Selection: Component-Selection/Component-Selection-Process.md
-      - A2 Microcontroller Selection: 02-Microcontroller-Selection/esp-32-table.md
-      - Apen-1: Appendix/another-subfile.md
-      - Apen-2: Appendix/charts.md
-      - Apen-3: Appendix/esp-32-table.md
-      - Apen-4: Appendix/basic-markdown-examples.md
+      - A2a Microcontroller Selection: 02-Microcontroller-Selection/esp-32-table.md
+      - A2b Microcontroller Selection: 02-Microcontroller-Selection/pic-table.md
+      - A3 Component Selection: Component-Selection/Component-Selection-Process.md
+      - A4a Examples to Remove: 04-Examples-to-Remove/another-subfile.md
+      - A4b Examples to Remove: 04-Examples-to-Remove/charts.md
+      - A4c Examples to Remove: 04-Examples-to-Remove/basic-markdown-examples.md
+
