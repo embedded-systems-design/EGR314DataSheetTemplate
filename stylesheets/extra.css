@@ -21,6 +21,7 @@
 .md-tabs__item { flex: 1 1 0 !important; }
 .md-tabs__link { display:block; text-align:center; padding:0.5rem 0; }
 
+
 /* Make sure no ancestor is clipping pointer events */
 .md-header, .md-main, .md-content {
   pointer-events: auto;
